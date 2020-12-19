@@ -9,20 +9,20 @@ Requirements
 
 Setup environment
 
-`export PYTHONPATH=~/codenn/src/:~/codenn/src/sqlparse`
-`export CODENN_DIR=~/codenn/`
+`export PYTHONPATH=~/ Csharp_SQL/src/:~/ Csharp_SQL/src/sqlparse`
+`export CODENN_DIR=~/ Csharp_SQL/`
 `export CODENN_WORK=./workdir`
 
 Build both csharp and sql datasets
 
 Install modified sqlparse
 
-`cd src/sqlparse/`
+`cd  Csharp_SQL/src/sqlparse/`
 `sudo python setup.py install`
 
 Build datasets
 
-`cd src/model`
+`cd Csharp_SQL/src/model`
 `./buildData.sh`
 
 Train codenn models and predict on test set
