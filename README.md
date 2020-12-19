@@ -35,7 +35,9 @@ Requirements
 * torch==1.4.0
 * transformers==2.5.0
 * filelock
+* Path to download pretrained model : https://drive.google.com/drive/folders/1htJxb60K2-rjbGfG99Fp6iq87gX7blef?usp=sharing
 
+Download pre-trained model and paste files in pretrained model folder
 ```shell
 cd RoBERTa
 
